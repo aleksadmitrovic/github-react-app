@@ -3,6 +3,20 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Below you will find some information on how to perform common tasks.<br>
 You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
+## Authentication
+We need to get auth token from the github,so we can access our profile,follow the steps.
+  step 1: go to you profile on github
+  step 2: go to the Settings
+  step 3: go to the Developer settings
+  step 4: go to the Personal access tokens
+  step 5: go to the Generate new token
+  step 6: in Note input field write why you need this token(example =>'Test repo access')
+  step 7: chose expiration date
+  step 8: select scopes(optional)
+  step 9: Generate token
+  step 10: copy your token
+  step 11: go to the project,find .env file in root folder,and paste your token there (REACT_APP_GITHUB_TOKEN = your token)
+
 ## Table of Contents
 
 - [Updating to New Releases](#updating-to-new-releases)
