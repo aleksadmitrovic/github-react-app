@@ -1,0 +1,22 @@
+.container {
+  border: 5px solid #ffa31a;
+  background: #001a33;
+  width: 300px;
+  margin: 20px auto;
+  padding: 0 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+  display: table-column;
+  color: white;
+}
+
+.card h5 {
+  font-size: 25px;
+  color: #ffa31a;
+}

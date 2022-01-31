@@ -1,0 +1,13 @@
+input {
+  width: 250px;
+  height: 30px;
+  font-size: 20px;
+  border: 4px solid #001a33;
+  color: #001a33;
+}
+
+input:hover {
+  transition: 0.3s;
+  border: 4px solid #ffa31a;
+  color: #ffa31a;
+}

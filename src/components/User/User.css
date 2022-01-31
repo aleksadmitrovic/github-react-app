@@ -1,0 +1,55 @@
+.user {
+  width: 600px;
+  height: 590px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 1px 10px 1px #001a33;
+}
+
+.upper-container {
+  font-weight: bold;
+  background: #001a33;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.img {
+  display: inline-block;
+  margin: auto 10px;
+  border-radius: 50%;
+}
+
+.img img {
+  display: block;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.info {
+  margin: auto;
+}
+
+.info h3 {
+  font-size: 40px;
+}
+
+.lower-container {
+  color: #001a33;
+}
+
+.repos {
+  width: 100%;
+  margin: auto;
+  height: 320px;
+  overflow: scroll;
+  text-align: left;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.repos h4 {
+  text-align: center;
+  font-size: 25px;
+}
